@@ -60,6 +60,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: VoiceStudio-Windows-Installer
-          path: installer/Output/*.exe
+          path: installer-output/*.exe
           if-no-files-found: error
           retention-days: 7
